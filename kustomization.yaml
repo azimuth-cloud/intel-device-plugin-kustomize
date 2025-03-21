@@ -1,0 +1,5 @@
+resources:
+  - git@github.com:intel/intel-device-plugins-for-kubernetes.git/deployments/nfd/overlays/node-feature-rules/?ref=v0.30.0
+  - git@github.com:intel/intel-device-plugins-for-kubernetes.git/deployments/operator/default/?ref=v0.30.0
+  - device-plugin.yaml
+  - namespace.yaml
