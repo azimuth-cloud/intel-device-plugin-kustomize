@@ -1,3 +1,3 @@
 resources:
 - namespace.yaml
-- git@github.com:intel/xpumanager/deployment/kubernetes/daemonset/base
+- https://github.com/intel/xpumanager//deployment/kubernetes/daemonset/base
