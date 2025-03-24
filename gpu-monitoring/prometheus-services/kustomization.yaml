@@ -1,0 +1,3 @@
+resources:
+- https://raw.githubusercontent.com/intel/xpumanager/master/deployment/kubernetes/monitoring/service-intel-xpum.yaml
+- https://raw.githubusercontent.com/intel/xpumanager/master/deployment/kubernetes/monitoring/servicemonitor-intel-xpum.yaml
