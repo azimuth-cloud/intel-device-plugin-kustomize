@@ -7,7 +7,7 @@ spec:
     - name: "taint.intel.gpu.max.1550"
       taints:
         - effect: NoExecute
-          key: "feature.node.kubernetes.io/gpu-dedicated"
+          key: "gpu.intel.com/i915"
       matchFeatures:
         - feature: pci.device
           matchExpressions:
