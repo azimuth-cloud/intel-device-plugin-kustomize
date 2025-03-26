@@ -6,7 +6,7 @@ spec:
   rules:
     - name: "taint.intel.gpu.max.1550"
       taints:
-        - effect: NoExecute
+        - effect: NoSchedule
           key: "gpu.intel.com/i915"
       matchFeatures:
         - feature: pci.device
